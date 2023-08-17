@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AE4D636E2A8D19A500D0E5B0 /* Swift_MVVM_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D636D2A8D19A500D0E5B0 /* Swift_MVVM_PlaygroundApp.swift */; };
-		AE4D63702A8D19A500D0E5B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D636F2A8D19A500D0E5B0 /* ContentView.swift */; };
+		AE4D63702A8D19A500D0E5B0 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D636F2A8D19A500D0E5B0 /* PeopleView.swift */; };
 		AE4D63722A8D19A600D0E5B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4D63712A8D19A600D0E5B0 /* Assets.xcassets */; };
 		AE4D63752A8D19A600D0E5B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4D63742A8D19A600D0E5B0 /* Preview Assets.xcassets */; };
 		AE4D637F2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D637E2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundTests.swift */; };
 		AE4D63892A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D63882A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITests.swift */; };
 		AE4D638B2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D638A2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITestsLaunchTests.swift */; };
+		AE4D639B2A8D1AB400D0E5B0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D639A2A8D1AB400D0E5B0 /* Person.swift */; };
+		AE4D639F2A8D1B3200D0E5B0 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4D639E2A8D1B3200D0E5B0 /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		AE4D636A2A8D19A500D0E5B0 /* Swift-MVVM-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-MVVM-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4D636D2A8D19A500D0E5B0 /* Swift_MVVM_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MVVM_PlaygroundApp.swift; sourceTree = "<group>"; };
-		AE4D636F2A8D19A500D0E5B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE4D636F2A8D19A500D0E5B0 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		AE4D63712A8D19A600D0E5B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4D63742A8D19A600D0E5B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE4D637A2A8D19A600D0E5B0 /* Swift-MVVM-PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-MVVM-PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		AE4D63842A8D19A600D0E5B0 /* Swift-MVVM-PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-MVVM-PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4D63882A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MVVM_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		AE4D638A2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_MVVM_PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE4D639A2A8D1AB400D0E5B0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AE4D639E2A8D1B3200D0E5B0 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				AE4D636D2A8D19A500D0E5B0 /* Swift_MVVM_PlaygroundApp.swift */,
-				AE4D636F2A8D19A500D0E5B0 /* ContentView.swift */,
 				AE4D63712A8D19A600D0E5B0 /* Assets.xcassets */,
+				AE4D63972A8D19EB00D0E5B0 /* Model */,
 				AE4D63732A8D19A600D0E5B0 /* Preview Content */,
+				AE4D63982A8D19F700D0E5B0 /* View */,
+				AE4D63992A8D19FE00D0E5B0 /* ViewModel */,
 			);
 			path = "Swift-MVVM-Playground";
 			sourceTree = "<group>";
@@ -125,6 +131,30 @@
 				AE4D638A2A8D19A600D0E5B0 /* Swift_MVVM_PlaygroundUITestsLaunchTests.swift */,
 			);
 			path = "Swift-MVVM-PlaygroundUITests";
+			sourceTree = "<group>";
+		};
+		AE4D63972A8D19EB00D0E5B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE4D639A2A8D1AB400D0E5B0 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE4D63982A8D19F700D0E5B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE4D636F2A8D19A500D0E5B0 /* PeopleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE4D63992A8D19FE00D0E5B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE4D639E2A8D1B3200D0E5B0 /* PersonViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4D63702A8D19A500D0E5B0 /* ContentView.swift in Sources */,
+				AE4D639B2A8D1AB400D0E5B0 /* Person.swift in Sources */,
+				AE4D63702A8D19A500D0E5B0 /* PeopleView.swift in Sources */,
 				AE4D636E2A8D19A500D0E5B0 /* Swift_MVVM_PlaygroundApp.swift in Sources */,
+				AE4D639F2A8D1B3200D0E5B0 /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

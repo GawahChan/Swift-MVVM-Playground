@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_MVVM_PlaygroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PeopleView()
         }
     }
 }
